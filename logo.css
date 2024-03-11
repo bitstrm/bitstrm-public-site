@@ -1,0 +1,264 @@
+@keyframes anm1 {
+  0% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(15deg);
+    opacity: 1;
+  }
+  2% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(15deg);
+    opacity: 1;
+  }
+  39% {
+    left: -50px;
+    top: 163.3333333333px;
+    transform: rotate(-50deg);
+    opacity: 1;
+  }
+  100% {
+    left: -50px;
+    top: 163.3333333333px;
+    transform: rotate(-50deg);
+    opacity: 1;
+  }
+}
+@keyframes anm2 {
+  0% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(15deg);
+    opacity: 1;
+  }
+  12% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(15deg);
+    opacity: 1;
+  }
+  51% {
+    left: -50px;
+    top: 190px;
+    transform: rotate(-50deg);
+    opacity: 1;
+  }
+  100% {
+    left: -50px;
+    top: 190px;
+    transform: rotate(-50deg);
+    opacity: 1;
+  }
+}
+@keyframes anm3 {
+  0% {
+    left: 530px;
+    top: -20px;
+    transform: rotate(-30deg);
+    opacity: 1;
+  }
+  23% {
+    left: 530px;
+    top: -20px;
+    transform: rotate(-30deg);
+    opacity: 1;
+  }
+  65% {
+    left: -50px;
+    top: 170px;
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+  100% {
+    left: -50px;
+    top: 170px;
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+}
+@keyframes anm4 {
+  0% {
+    left: 530px;
+    top: 22px;
+    transform: rotate(20deg);
+    opacity: 1;
+  }
+  31% {
+    left: 530px;
+    top: 22px;
+    transform: rotate(20deg);
+    opacity: 1;
+  }
+  72% {
+    left: -50px;
+    top: 146px;
+    transform: rotate(-70deg);
+    opacity: 1;
+  }
+  100% {
+    left: -50px;
+    top: 146px;
+    transform: rotate(-70deg);
+    opacity: 1;
+  }
+}
+@keyframes anm5 {
+  0% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  39% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  78% {
+    left: -50px;
+    top: 204px;
+    transform: rotate(-120deg);
+    opacity: 1;
+  }
+  100% {
+    left: -50px;
+    top: 204px;
+    transform: rotate(-120deg);
+    opacity: 1;
+  }
+}
+@keyframes anm6 {
+  0% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(20deg);
+    opacity: 1;
+  }
+  50% {
+    left: 530px;
+    top: 16px;
+    transform: rotate(20deg);
+    opacity: 1;
+  }
+  90% {
+    left: -50px;
+    top: 130px;
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+  100% {
+    left: -50px;
+    top: 130px;
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+}
+@keyframes anm7 {
+  0% {
+    left: 530px;
+    top: -10px;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    left: 530px;
+    top: -10px;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  85% {
+    left: 103.007828595px;
+    top: 50px;
+    transform: rotate(65deg);
+    opacity: 1;
+  }
+  100% {
+    left: 103.007828595px;
+    top: 50px;
+    transform: rotate(65deg);
+    opacity: 1;
+  }
+}
+@keyframes anm-text {
+  90% {
+    top: 60px;
+    left: 23px;
+    opacity: 0;
+  }
+  100% {
+    top: 18.2px;
+    left: 23px;
+    opacity: 1;
+  }
+}
+#cvs {
+  width: 500px;
+  height: 200px;
+  opacity: 1;
+  overflow: hidden;
+  border-color: black;
+  border-width: 0px;
+  position: relative;
+  border-style: solid;
+  transform: scale(1);
+  transform-origin: left top;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+
+#svg-logo {
+  width: 420px;
+  height: 600px;
+  position: relative;
+}
+
+#logo-text {
+  position: relative;
+  opacity: 0;
+  animation: anm-text 2s ease-in 0.4s forwards;
+}
+
+.square {
+  opacity: 1;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: #0000ff;
+  left: 530px;
+  top: -50px;
+}
+
+#sq1 {
+  animation: anm1 2s cubic-bezier(0.24, 0, 0.74, 0.97) 0.4s forwards;
+}
+
+#sq2 {
+  animation: anm2 2s cubic-bezier(0.24, 0, 0.74, 0.97) 0.4s forwards;
+}
+
+#sq3 {
+  animation: anm3 2s cubic-bezier(0.24, 0, 0.74, 0.97) 0.4s forwards;
+}
+
+#sq4 {
+  animation: anm4 2s cubic-bezier(0.24, 0, 0.74, 0.97) 0.4s forwards;
+}
+
+#sq5 {
+  animation: anm5 2s cubic-bezier(0.24, 0, 0.74, 0.97) 0.4s forwards;
+}
+
+#sq6 {
+  animation: anm6 2s cubic-bezier(0.24, 0, 0.74, 0.97) 0.4s forwards;
+}
+
+#sq7 {
+  animation: anm7 2s 0.4s forwards;
+  animation-timing-function: cubic-bezier(0.24, 0, 0.74, 0.97);
+}
+
+.letter {
+  fill: #000000;
+}/*# sourceMappingURL=logo.css.map */

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbitstrm_landing_2=self.webpackChunkbitstrm_landing_2||[]).push([[5080],{5080:(s,t,e)=>{e.d(t,{Pauser:()=>a});var n=e(4409);class a extends n.sJ{constructor(s){super(s),this.handleClickMode=s=>{if("pause"!==s)return;const t=this.container;t.animationStatus?t.pause():t.play()}}clear(){}init(){}interact(){}isEnabled(){return!0}reset(){}}}}]);
+//# sourceMappingURL=5080.3ad69115.chunk.js.map
